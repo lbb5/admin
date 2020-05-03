@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: db, core, wx
+  messages:
+    encoding: UTF-8
+
+server:
+  port: 8066
+
+logging:
+  level:
+    root:  ERROR
+    org.springframework:  INFO
+    org.mybatis:  ERROR
+    org.linlinjava.litemall.wx:  INFO
+    org.linlinjava.litemall:  INFO
